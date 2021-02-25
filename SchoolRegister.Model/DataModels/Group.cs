@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace SchoolRegister.BLL.DataModels
+namespace SchoolRegister.Model.DataModels
 {
     public class Group
     {
