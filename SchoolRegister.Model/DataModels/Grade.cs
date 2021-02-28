@@ -13,5 +13,6 @@ namespace SchoolRegister.Model.DataModels
         public int StudentId {get; set;}
         public Subject Subject {get; set;}
         public int SubjectId {get; set;}
+        public object GradeValue { get; internal set; }
     }
 }
