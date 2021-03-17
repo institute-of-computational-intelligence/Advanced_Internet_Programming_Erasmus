@@ -7,12 +7,12 @@ namespace SchoolRegister.Model.DataModels
     {
         public RoleValue RoleValue { get; set; }
 
-        public void Role()
+        public Role()
         {
   
         }
 
-        public void Role(string name, RoleValue roleValue)
+        public Role(string name, RoleValue roleValue)
         {
             
         }
