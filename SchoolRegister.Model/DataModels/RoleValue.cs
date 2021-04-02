@@ -1,3 +1,3 @@
  public enum RoleValue{
-            User, Student, Teacher, Admin
+            User, Student,Parent, Teacher, Admin
         }
