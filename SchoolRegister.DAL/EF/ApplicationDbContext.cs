@@ -11,6 +11,7 @@ namespace SchoolRegister.DAL.EF
         // Table properties e.g
         // public virtual DbSet<Entity> TableName { get; set; }
         public virtual DbSet<Grade> Grades { get; set; }
+        public virtual DbSet<Subject> Subjects { get; set; }
         // more properties need to added….
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
         : base(options)
@@ -26,6 +27,7 @@ namespace SchoolRegister.DAL.EF
         {
             base.OnModelCreating(modelBuilder);
             // Fluent API commands
+
             modelBuilder.Entity<User>()
             .ToTable("AspNetUsers")
             .HasDiscriminator<int>("UserType")
