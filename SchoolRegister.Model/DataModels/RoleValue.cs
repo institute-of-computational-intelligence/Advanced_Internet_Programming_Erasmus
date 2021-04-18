@@ -9,7 +9,6 @@ namespace SchoolRegister.Model.DataModels
         Student,
         Parent,
         Teacher,
-        Admin
+        Admin,
     }
-
 }

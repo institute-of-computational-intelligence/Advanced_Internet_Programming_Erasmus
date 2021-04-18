@@ -3,11 +3,11 @@ using System;
 
 namespace SchoolRegister.Model.DataModels
 {
-    public enum GradeScale
+    public enum GradeScale : int
     {
         NDST,
         DST,
         DB,
-        BDB
+        BDB,
     }
 }
