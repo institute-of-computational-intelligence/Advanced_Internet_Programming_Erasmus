@@ -1,11 +1,14 @@
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace SchoolRegister.Model.DataModels
 {
     public class Subject
     {
+        [Key]
+        
         public string Description { get; set; }
         
         public IUserLoginStore<Grade> Grades { get; set; }
