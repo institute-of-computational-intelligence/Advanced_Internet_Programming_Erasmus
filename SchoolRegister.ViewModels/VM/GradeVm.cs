@@ -1,11 +1,14 @@
-using System.ComponentModel.DataAnnotations;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using SchoolRegister.Model.DataModels;
 
 namespace SchoolRegister.ViewModels.VM
 {
-    public class GradeVm
+   public class GradeVm
     {
-        public int StudentId { get; set; }
-        public int SubjectId { get; set; }
-        
+        public string SubjectName { get; set; }
+
+        public GradeScale GradeValue { get; set; }
     }
 }

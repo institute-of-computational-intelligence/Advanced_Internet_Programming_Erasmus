@@ -1,0 +1,15 @@
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\SchoolRegister.ViewModels.deps.json
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\SchoolRegister.ViewModels.dll
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\ref\SchoolRegister.ViewModels.dll
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\SchoolRegister.ViewModels.pdb
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\SchoolRegister.Model.dll
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\bin\Debug\net5.0\SchoolRegister.Model.pdb
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.csprojAssemblyReference.cache
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.AssemblyInfo.cs
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.csproj.CopyComplete
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.dll
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\ref\SchoolRegister.ViewModels.dll
+C:\Users\Mucahit\Desktop\Mucahit Kutsal\SchoolRegister.ViewModels\obj\Debug\net5.0\SchoolRegister.ViewModels.pdb

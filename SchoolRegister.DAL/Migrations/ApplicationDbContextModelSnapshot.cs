@@ -126,19 +126,21 @@ namespace SchoolRegister.DAL.Migrations
 
             modelBuilder.Entity("SchoolRegister.Model.DataModels.Grade", b =>
                 {
+                    b.Property<DateTime>("DateOfIssue")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("StudentId")
                         .HasColumnType("int");
 
                     b.Property<int>("SubjectId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DateOfIssue")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("GaradeValue")
+                    b.Property<int>("GradeValue")
                         .HasColumnType("int");
 
-                    b.HasKey("StudentId", "SubjectId");
+                    b.HasKey("DateOfIssue", "StudentId", "SubjectId");
+
+                    b.HasIndex("StudentId");
 
                     b.HasIndex("SubjectId");
 
@@ -158,7 +160,7 @@ namespace SchoolRegister.DAL.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Group");
+                    b.ToTable("Groups");
                 });
 
             modelBuilder.Entity("SchoolRegister.Model.DataModels.Role", b =>
@@ -214,7 +216,7 @@ namespace SchoolRegister.DAL.Migrations
 
                     b.HasIndex("TeacherId");
 
-                    b.ToTable("Subject");
+                    b.ToTable("Subjects");
                 });
 
             modelBuilder.Entity("SchoolRegister.Model.DataModels.SubjectGroup", b =>
@@ -229,7 +231,7 @@ namespace SchoolRegister.DAL.Migrations
 
                     b.HasIndex("SubjectId");
 
-                    b.ToTable("SubjectGroup");
+                    b.ToTable("SubjectGroups");
                 });
 
             modelBuilder.Entity("SchoolRegister.Model.DataModels.User", b =>
@@ -403,7 +405,7 @@ namespace SchoolRegister.DAL.Migrations
                     b.HasOne("SchoolRegister.Model.DataModels.Student", "Student")
                         .WithMany("Grades")
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("SchoolRegister.Model.DataModels.Subject", "Subject")
@@ -420,7 +422,7 @@ namespace SchoolRegister.DAL.Migrations
             modelBuilder.Entity("SchoolRegister.Model.DataModels.Subject", b =>
                 {
                     b.HasOne("SchoolRegister.Model.DataModels.Teacher", "Teacher")
-                        .WithMany("Subject")
+                        .WithMany("Subjects")
                         .HasForeignKey("TeacherId");
 
                     b.Navigation("Teacher");
@@ -486,7 +488,7 @@ namespace SchoolRegister.DAL.Migrations
 
             modelBuilder.Entity("SchoolRegister.Model.DataModels.Teacher", b =>
                 {
-                    b.Navigation("Subject");
+                    b.Navigation("Subjects");
                 });
 #pragma warning restore 612, 618
         }

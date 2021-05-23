@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Linq.Expressions;
 using AutoMapper;
 using Microsoft.Extensions.Logging;
@@ -7,16 +8,12 @@ using SchoolRegister.DAL.EF;
 using SchoolRegister.Model.DataModels;
 using SchoolRegister.Services.Interfaces;
 using SchoolRegister.ViewModels.VM;
-using System.Linq;
 
-namespace SchoolRegister.Services.Services
-{
-    public class SubjectService : BaseService, ISubjectService
-    {
-        public SubjectService(ApplicationDbContext dbContext, IMapper mapper, ILogger logger) : base(dbContext, mapper, logger){}
+namespace SchoolRegister.Services.Services {
+    public class SubjectService : BaseService, ISubjectService {
+        public SubjectService (ApplicationDbContext dbContext, IMapper mapper, ILogger logger) : base (dbContext, mapper, logger) { }
 
-        public SubjectVm AddOrUpdateSubject(AddOrUpdateSubjectVm addOrUpdateVm)
-        {
+        public SubjectVm AddOrUpdateSubject (AddOrUpdateSubjectVm addOrUpdateVm) {
             try {
                 if (addOrUpdateVm == null)
                     throw new ArgumentNullException ($"View model parameter is null");
@@ -34,8 +31,7 @@ namespace SchoolRegister.Services.Services
             }
         }
 
-        public SubjectVm GetSubject(Expression<Func<Subject, bool>> filterExpression)
-        {
+        public SubjectVm GetSubject (Expression<Func<Subject, bool>> filterExpression) {
             try {
                 if (filterExpression == null)
                     throw new ArgumentNullException ($" FilterExpression is null");
@@ -48,8 +44,7 @@ namespace SchoolRegister.Services.Services
             }
         }
 
-        public IEnumerable<SubjectVm> GetSubjects(Expression<Func<Subject, bool>> filterExpression = null)
-        {
+        public IEnumerable<SubjectVm> GetSubjects (Expression<Func<Subject, bool>> filterExpression = null) {
             try {
                 var subjectEntities = DbContext.Subjects.AsQueryable ();
                 if (filterExpression != null)
