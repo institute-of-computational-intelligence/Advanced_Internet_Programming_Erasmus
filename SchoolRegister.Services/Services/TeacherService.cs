@@ -46,9 +46,9 @@ namespace SchoolRegister.Services.Services
             {
                 throw new ArgumentNullException($"Vm is null");
             }
-            var teacherEntity = DbContext.Users.OfType<Teacher>().FirstOrDefault(x => x.Id == getTeachersGroups.TeacherId);
-            var teacherGroups = teacherEntity?.Subjects.SelectMany(s => s.SubjectGroups.Select(gr => gr.Group));
-            var teacherGroupsVm = Mapper.Map<IEnumerable<GroupVm>>(teacherGroups);
+            var teacher = _userManager.Users.OfType<Teacher>().FirstOrDefault(x => x.Id == getTeachersGroups.TeacherId);
+            var teacherGroups = teacher?.Subjects.SelectMany(s=>s.SubjectGroups.Select(gr=>gr.Group));
+            var teacherGroupsVm = Mapper.Map<IEnumerable<GroupVm>>(teacherGroups); 
             return teacherGroupsVm;
         }
 
@@ -62,7 +62,7 @@ namespace SchoolRegister.Services.Services
                 }
 
                 var teacher = DbContext.Users.OfType<Teacher>()
-                .FirstOrDefault(x => x.Id == sendEmailToParentVm.SenderId);
+                    .FirstOrDefault(x => x.Id == sendEmailToParentVm.SenderId);
                 if (teacher == null || _userManager.IsInRoleAsync(teacher, "Teacher").Result == false)
                 {
                     throw new InvalidOperationException("sender is not teacher");
@@ -73,7 +73,7 @@ namespace SchoolRegister.Services.Services
                 {
                     throw new InvalidOperationException("given user is not student");
                 }
-                await _emailService.SendEmailAsync(student.Parent.Email, teacher.Email, sendEmailToParentVm.Title, sendEmailToParentVm.Content);
+                await _emailService.SendEmailAsync(student.Parent.Email, teacher.Email, sendEmailToParentVm.Title,sendEmailToParentVm.Content);
                 return true;
             }
             catch (Exception)

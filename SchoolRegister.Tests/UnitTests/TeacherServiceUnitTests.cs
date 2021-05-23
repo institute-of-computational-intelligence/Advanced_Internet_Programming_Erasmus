@@ -12,7 +12,7 @@ namespace SchoolRegister.Tests.UnitTests {
             _teacherService = teacherService;
         }
         [Fact]
-        public async void SentEmailToPartentTest () {
+        public async void SentEmailToParentTest () {
             var sendEmailToParent = new SendEmailToParentVm () {
                 Content = "This is test email",
                 Title = "Test",
@@ -43,8 +43,7 @@ namespace SchoolRegister.Tests.UnitTests {
         }
         [Fact]
         public void GetTeachersGroups () {
-            var getTeachersGroup = new TeachersGroupsVm {
-                
+            var getTeachersGroup = new TeachersGroupsVm {        
             };
             var teachersGroups = _teacherService.GetTeachersGroups (getTeachersGroup);
             Assert.NotNull (teachersGroups);

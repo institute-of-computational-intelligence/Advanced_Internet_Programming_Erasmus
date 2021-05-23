@@ -4,11 +4,13 @@ namespace SchoolRegister.ViewModels.VM
 {
     public class SendEmailToParentVm
     {
-        public int SenderId {get; set;}
-        public int StudentId {get; set;}
-        public string Content {get; set;}       
-        
-        public string Title {get; set;}  
-        
+        [Required]
+        public int SenderId { get; set; }
+        [Required]
+        public int StudentId { get; set; }
+        [Required]
+        public string Title { get; set; }
+        [Required]
+        public string Content { get; set; }      
     }
 }
