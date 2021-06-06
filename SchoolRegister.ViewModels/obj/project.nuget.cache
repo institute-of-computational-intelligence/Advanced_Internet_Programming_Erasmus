@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "67RMCQYBI7YX9VZpNaLpO5sZeME5wmV4GtFid/bCYoYX24XF0WT1MNbLnz7e6QDj94YMTY6+lWLMfigS9WJwPA==",
+  "dgSpecHash": "0DTK5EH7fLbAfnCRbZ8Nx4q5UPH9UKKOX1Ae8EQZo/OP4bjsnX33nejJM5kgBhd9mxwpVkqrtSJuB6K5Z9lZdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
+  "projectFilePath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mucahit\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.3\\microsoft.aspnetcore.cryptography.internal.5.0.3.nupkg.sha512",
     "C:\\Users\\Mucahit\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.3\\microsoft.aspnetcore.cryptography.keyderivation.5.0.3.nupkg.sha512",

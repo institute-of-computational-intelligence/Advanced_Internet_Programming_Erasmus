@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Web\\SchoolRegister.Web.csproj": {}
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Web\\SchoolRegister.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj",
         "projectName": "SchoolRegister.DAL",
-        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj",
+        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj",
         "packagesPath": "C:\\Users\\Mucahit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\obj\\",
+        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mucahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj",
         "projectName": "SchoolRegister.Model",
-        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj",
+        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj",
         "packagesPath": "C:\\Users\\Mucahit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\obj\\",
+        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mucahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\SchoolRegister.Services.csproj": {
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\SchoolRegister.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\SchoolRegister.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\SchoolRegister.Services.csproj",
         "projectName": "SchoolRegister.Services",
-        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\SchoolRegister.Services.csproj",
+        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\SchoolRegister.Services.csproj",
         "packagesPath": "C:\\Users\\Mucahit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\obj\\",
+        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mucahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -170,14 +170,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj"
               },
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
               },
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
         "projectName": "SchoolRegister.ViewModels",
-        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Mucahit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mucahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -252,8 +252,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
               }
             }
           }
@@ -286,14 +286,14 @@
         }
       }
     },
-    "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Web\\SchoolRegister.Web.csproj": {
+    "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Web\\SchoolRegister.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Web\\SchoolRegister.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Web\\SchoolRegister.Web.csproj",
         "projectName": "SchoolRegister.Web",
-        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Web\\SchoolRegister.Web.csproj",
+        "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Web\\SchoolRegister.Web.csproj",
         "packagesPath": "C:\\Users\\Mucahit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Web\\obj\\",
+        "outputPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mucahit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -310,17 +310,17 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.DAL\\SchoolRegister.DAL.csproj"
               },
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Model\\SchoolRegister.Model.csproj"
               },
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\SchoolRegister.Services.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.Services\\SchoolRegister.Services.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\SchoolRegister.Services.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.Services\\SchoolRegister.Services.csproj"
               },
-              "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Mucahit Kutsal\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj"
+              "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Mucahit\\Desktop\\Advanced_Internet_Programming_Erasmus\\SchoolRegister.ViewModels\\SchoolRegister.ViewModels.csproj"
               }
             }
           }
