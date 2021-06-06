@@ -1,0 +1,14 @@
+<root>
+    <data name="Groups" xml:space="preserve"> 
+        <value>Groups</value> 
+    </data> 
+    <data name="SchoolRegister" xml:space="preserve"> 
+        <value>SchoolRegister</value> 
+    </data> 
+    <data name="Students" xml:space="preserve"> 
+        <value>Students</value> 
+    </data> 
+    <data name="Subjects" xml:space="preserve"> 
+        <value>Subjects</value> 
+    </data>
+</root>

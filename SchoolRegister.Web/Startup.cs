@@ -68,14 +68,16 @@ namespace SchoolRegister.Web
             services.Configure<RequestLocalizationOptions>(options =>{
                 var supportedCultures = new[] { 
                     new CultureInfo("en"), 
-                    new CultureInfo("pl-PL") 
+                    new CultureInfo("tr-TR") 
                 }; 
                 options.DefaultRequestCulture = new RequestCulture(culture: "en", uiCulture: "en"); 
                 options.SupportedCultures = supportedCultures; 
                 options.SupportedUICultures = supportedCultures;
             }); 
             services.AddLocalization(options => options.ResourcesPath = "Resources"); 
-            services.AddControllersWithViews().AddViewLocalization().AddDataAnnotationsLocalization();
+            services.AddControllersWithViews()
+                .AddViewLocalization()  
+                .AddDataAnnotationsLocalization();
         } // This method gets called by the runtime. Use this method to configure the HTTP request pipeline. 
         public void Configure (IApplicationBuilder app, IWebHostEnvironment env) { 
             if (env.IsDevelopment ()) { 
