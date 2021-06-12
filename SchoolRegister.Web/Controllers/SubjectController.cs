@@ -37,8 +37,24 @@ namespace SchoolRegister.Web.Controllers
                 return View(_subjectService.GetSubjects());
             else if (_userManager.IsInRoleAsync(user, "Teacher").Result)
             {
-                var teacher = _userManager.GetUserAsync(User).Result as Teacher;
-                return View(_subjectService.GetSubjects(x => x.TeacherId == teacher.Id));
+                if(user is Teacher teacher){
+                    Expression<Func<Subject,bool>> filterTeacherExpression = s => s.TeacherId == teacher.Id;
+                    Expression finalFilterBody;
+                    if(filterExpression != null){
+                        var invokedFilterExrp = Expression.Invoke(filterExpression, filterTeacherExpression.Parameters);
+                        finalFilterBody = Expression.AndAlso(filterTeacherExpression.Body,  invokedFilterExrp);     
+                    }
+                    else{
+                        fİnalFilterBody = filterTeacherExpression.Body;
+                    }
+                    var finalFilterExpression = Expression.Lambda<Func<Subject, bool>>(finalFilterBody, finalTeacherExpression.Parameters);
+                    var subjectVms = _subjectService.GetSubjects(finalFilterExpression);
+                    if(isAjaxRequest){
+                        return PartialView("_SubjectTableDataPartial", subjectVms);
+                    }
+                    return View(subjectVms);
+                }
+                throw new Exception("Teacher assigned the role but the teacher type.");
             }
             else if (_userManager.IsInRoleAsync(user, "Student").Result)
                 return RedirectToAction("Details", "Student", new { studentId = user.Id });
