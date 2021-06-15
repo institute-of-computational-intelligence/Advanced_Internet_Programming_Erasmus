@@ -47,8 +47,8 @@ namespace SchoolRegister.Services.Services
                 throw new ArgumentNullException($"Vm is null");
             }
             var teacher = _userManager.Users.OfType<Teacher>().FirstOrDefault(x => x.Id == getTeachersGroups.TeacherId);
-            var teacherGroups = teacher?.Subjects.SelectMany(s => s.SubjectGroups.Select(gr => gr.Group));
-            var teacherGroupsVm = Mapper.Map<IEnumerable<GroupVm>>(teacherGroups);
+            var teacherGroups = teacher?.Subjects.SelectMany(s=>s.SubjectGroups.Select(gr=>gr.Group));
+            var teacherGroupsVm = Mapper.Map<IEnumerable<GroupVm>>(teacherGroups); 
             return teacherGroupsVm;
         }
 
@@ -73,7 +73,7 @@ namespace SchoolRegister.Services.Services
                 {
                     throw new InvalidOperationException("given user is not student");
                 }
-                await _emailService.SendEmailAsync(student.Parent.Email, teacher.Email, sendEmailToParentVm.Title, sendEmailToParentVm.Content);
+                await _emailService.SendEmailAsync(student.Parent.Email, teacher.Email, sendEmailToParentVm.Title,sendEmailToParentVm.Content);
                 return true;
             }
             catch (Exception)
