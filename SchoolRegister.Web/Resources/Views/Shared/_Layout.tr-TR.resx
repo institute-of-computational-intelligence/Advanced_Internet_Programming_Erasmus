@@ -1,0 +1,14 @@
+<root>
+    <data name="Groups" xml:space="preserve"> 
+        <value>Gruplar</value> 
+    </data> 
+    <data name="SchoolRegister" xml:space="preserve"> 
+        <value>Okul Kaydı</value> 
+    </data> 
+    <data name="Students" xml:space="preserve"> 
+        <value>Öğrenciler</value> 
+    </data> 
+    <data name="Subjects" xml:space="preserve"> 
+        <value>Konular</value> 
+    </data>
+</root>
